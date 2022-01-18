@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speaking Practice</title>
+
+</head>
+
+<body>
+
+  <div class="background">
+    <div
+      class="box">
+      <p class="text-right">
+        Time: <span id="seconds-remaining"></span>
+      </p>
+      <h1 class="title">Listen & Speak that you hear.</h1>
+      <p class="text-xl">Remaining: <span id="tries-remaining"></span> time(s)</p>
+      <div class="flex flex-row space-x-4">
+        <button id="listen-button"
+          class="flex-1 button">
+          Listen
+        </button>
+        <button id="speak-button"
+          class="flex-1 button">
+          Speak
+        </button>
+
+      </div>
+      <textarea rows="2" id="user-input"
+        class="text-area"></textarea>
+      <div class="flex flex-row justify-end">
+        <button id="submit-button"
+          class="button">Submit</button>
+      </div>
+
+
+      <div id="answer-block" class="space-y-4">
+        <hr />
+        <p class="text-lg"><span class="font-semibold text-orange-600">Answer: </span> <span id="answer-quote"></span>
+        </p>
+
+        <h1 class="text-center title text-orange-600">Result</h1>
+        <div class="flex flex-row">
+          <div class="flex-1">
+            <p class="stat-label">Mistakes: <span id="mistakes"
+                class="stat">5</span>
+            </p>
+          </div>
+          <div class="flex-1">
+            <p class="stat-label">Accuracy: <span id="accuracy"
+                class="stat">5</span>
+            </p>
+          </div>
+          <div class="flex-1">
+            <p class="stat-label">WPM: <span id="wpm"
+                class="stat">5</span></p>
+          </div>
+        </div>
+        <button id="reset-button"
+          class="button w-full">
+          Reset
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
