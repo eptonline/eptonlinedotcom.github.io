@@ -1,40 +1,79 @@
-const countdown = document.querySelector(".countdown");
 
-const interval = setInterval(() => {
-  const deadline = new Date(2022, 1, 30, 12, 00, 00);
 
-  const current = new Date();
+// Get DOM Elements
+const modal = document.querySelector('#my-modal');
+// Events
+window.addEventListener('click', outsideClick);
 
-  const diff = deadline - current;
+// Open
+function openModal() {
+  modal.style.display = 'block';
+}
 
-  const days = Math.floor(diff / (1000 * 60 * 60 * 24)) + "";
-  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24) + "";
-  const minutes = Math.floor((diff / (1000 * 60)) % 60) + "";
-  const seconds = Math.floor((diff / 1000) % 60) + "";
+// Close
+function closeModal() {
+  modal.style.display = 'none';
+}
 
-  countdown.innerHTML = `
-    <div data-content="Days">${days.length === 1 ? `0${days}` : days}</div>
-    <div data-content="Hours">${hours.length === 1 ? `0${hours}` : hours}</div>
-    <div data-content="Minutes">${
-      minutes.length === 1 ? `0${minutes}` : minutes
-    }</div>
-    <div data-content="Seconds">${
-      seconds.length === 1 ? `0${seconds}` : seconds
-    }</div>
-`;
-
-  if (diff < 0) {
-    clearInterval(interval);
-    countdown.innerHTML = "<h1>Here We Go!!!</h1>";
+// Close If Outside Click
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'block';
   }
+}
 
-  document.querySelector(".reset").addEventListener("click", () => {
-    clearInterval(interval);
 
-    const divs = document.querySelectorAll(".countdown div");
+//Subscribe us
 
-    divs.forEach((div) => {
-      div.innerHTML = "00";
-    });
-  });
-}, 1000);
+
+
+
+
+ function subscribeus(){
+    
+			var email = $('#Sender1').val();
+			var Body='Subscriber : '+email;
+			Email.send({
+                SecureToken:"84e3503b-e550-4666-bc68-cbc4ba528d65",
+				To: "mdsanaulhaqueshanto@gmail.com",
+				From: "filosopharstone@gmail.com",
+				Subject: "New Subscriptions from "+email,
+				Body: Body
+			}).then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					document.getElementById("statuss").innerHtml = 'You will get exciting news from us.';
+					closeModal();
+					}
+					else{
+						console.error (message);
+						document.getElementById("statuss").innerHtml = 'There is error at Subscriptions. Contact Us.';
+						
+					}
+
+				}
+			);
+
+
+
+		}
+
+
+
+
+
+$(document).ready(function(){
+	var Mod = document.getElementById('my-modal');
+	var key = 'hadModal',
+	hadModal = localStorage.getItem(key);
+
+	if(!hadModal){
+		Mod.style.display = 'block';
+	}
+
+	$('#my-modal').on('submit',function(event){
+		localStorage.setItem(key, true);
+	})
+});
+
