@@ -242,7 +242,7 @@ function updateTimer() {
 
 //Sets timer
 const timeReduce = () => {
-  time = 60;
+  time = 300;
   timer = setInterval(updateTimer, 1000);
 };
 
