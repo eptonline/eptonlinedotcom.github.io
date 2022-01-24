@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eptOnline | Interviews</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+      <div class="stats">
+        <p>Time: <span id="timer">0s</span></p>
+      </div>
+    <h1 style="font-color: bold black; text-align: center;">Interviews</h1>
+    <p id="hi">Talk at least 3-5 Minutes.</p>
+<blockquote>
+  <p id="quotation"></p>
+</blockquote><br/>
+      <p id="gi" style="font-size: 2vmin; font-style: bold;">Please Mute Audio first from Video Control then Start Test.</p> 
+<main style="float: center;">
+
+        <video id="cck" width="360" height="280" controls></video>
+        <br/>
+        <button id="btnStart">
+        
+          Start Test
+        </button>
+        <button id="btnStop">
+          Stop Test
+        </button>
+
+</main>
+  <p id="source"></p>
+ <button id="linkk" ><a id="vid2" >Download Interview</a></button>
+<br/>
+<button id="retry" onclick="reload();" style="text-align: center;">Re Try</button>
+</div>
+
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
