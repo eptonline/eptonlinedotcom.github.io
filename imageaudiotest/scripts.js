@@ -43,7 +43,7 @@ let chunks = [];
 var options = {
         audioBitsPerSecond: 128000,
         videoBitsPerSecond: 2500000,
-        mimeType: 'audio/mp3'
+        mimeType: 'audio/webm'
     }
     // Download counter
 let counter = 0;
