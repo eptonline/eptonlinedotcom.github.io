@@ -154,7 +154,7 @@ var OSName = "Unknown OS";
   console.log('Your OS: ' + OSName);
 if (OSName === "Android" ) {
     var newDiv = document.createElement("div");
-    newDiv.innerHTML = "<b>" + OSName + "</b> is <i>not</i> supported. Only Computer device support our full functionality. Please, use computer/laptop/Mac for uses our Platform.";
+    newDiv.innerHTML = "<b>" + OSName + "</b> is <i>not</i> supported. Only Computer device support our full functionality. Please, use Computer/Laptop/Mac Chrome browser for practice.";
     newDiv.setAttribute("style", "background-color:red;color:white;padding:12px;");
     document.body.insertBefore(newDiv, document.body.firstChild);
 
