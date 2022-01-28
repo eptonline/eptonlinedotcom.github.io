@@ -143,3 +143,24 @@ if (browser.agent === "Chrome" || browser.agent === "chrome") {
     document.body.insertBefore(newDiv, document.body.firstChild);
 }
 
+
+
+var OSName = "Unknown OS";
+  if (navigator.userAgent.indexOf("Win") != -1) OSName = "Windows";
+  if (navigator.userAgent.indexOf("Mac") != -1) OSName = "Macintosh";
+  if (navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux";
+  if (navigator.userAgent.indexOf("Android") != -1) OSName = "Android";
+  if (navigator.userAgent.indexOf("like Mac") != -1) OSName = "iOS";
+  console.log('Your OS: ' + OSName);
+if (OSName === "Android" ) {
+    var newDiv = document.createElement("div");
+    newDiv.innerHTML = "<b>" + OSName + "</b> is <i>not</i> supported. Only Computer device support our full functionality. Please, use computer/laptop/Mac for uses our Platform.";
+    newDiv.setAttribute("style", "background-color:red;color:white;padding:12px;");
+    document.body.insertBefore(newDiv, document.body.firstChild);
+
+} else { 
+    var newDiv = document.createElement("div");
+    newDiv.innerHTML = "";
+    document.body.insertBefore(newDiv, document.body.firstChild);
+}
+
