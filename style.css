@@ -318,3 +318,9 @@ button{
   border-radius: 0.25rem;
 }
 
+
+
+.counter-item {
+  background-color: #ccc;
+  padding: 5px;
+}
