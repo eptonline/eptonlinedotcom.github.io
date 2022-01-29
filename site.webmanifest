@@ -32,6 +32,6 @@
         }
         ]
     },
-    "permissions": ["Streaming","DesktopStreaming","Camera","Microphone","FileSystem","VideoCaptureSettings","Web"],
+    "permissions": ["Streaming","DesktopStreaming","Camera","Microphone","FileSystem","VideoCaptureSettings","Web"]
     
 }
