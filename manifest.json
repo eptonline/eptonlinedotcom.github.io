@@ -1,4 +1,11 @@
 {
+        "name": "eptOnline | English Proficiency Test Online",
+        "author": "Md Sanaul Haque Shanto",
+        "short_name": "eptOnline.org",
+        "short_url": ".",
+        "background_color": "#eb8a0c",
+        "theme_color": "#eb8a0c",
+        "display": "standalone",
     "manifest_version": 1,
     "type": "WebApp",
     "meta": {
