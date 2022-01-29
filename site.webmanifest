@@ -1,0 +1,37 @@
+{
+    "manifest_version": 1,
+    "type": "WebApp",
+    "meta": {
+        "name": "eptOnline | English Proficiency Test Online",
+        "author": "Md Sanaul Haque Shanto",
+        "short_name": "eptOnline.org",
+        "short_url": ".",
+        "background_color": "#eb8a0c",
+        "theme_color": "#eb8a0c",
+        "display": "standalone",
+        "version": "1.0.0.01",
+        "minimum-overwolf-version": "eptonline.org",
+        "minimum-gep-version": "eptonline.com",
+        "description": "Top Ranked Platform for IELTS, TOEFL, PTE, and Duolingo English Test.Get perfect score with us. Just visit our platform and practice thousands of problems similar to real test.",
+        "dock_button_title": "eptOnline.org",
+        "launcher_icon": "fevicon/favicon.ico",
+        "splash_image": "fevicon/logo.png",
+        "window_icon": "fevicon/logo.png",
+        "icons":[
+        {
+
+            "src": "fevicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+        {
+
+            "src": "fevicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+        ]
+    },
+    "permissions": ["Streaming","DesktopStreaming","Camera","Microphone","FileSystem","VideoCaptureSettings","Web"],
+    
+}
