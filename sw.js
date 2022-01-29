@@ -8,5 +8,5 @@ self.addEventListener("install", e => {
 });
 
 	self.addEventListener("fetch", e => {
-		console.log('Intercepting Fetch Request for: $(e.request.url)');
+		console.log(`Intercepting fatch for : ${e.request.url}`);
 	});
