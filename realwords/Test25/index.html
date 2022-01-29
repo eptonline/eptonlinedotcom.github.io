@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Read and Select the real English words</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<br>
+<div class="sitemap">
+ <a href="/">Home</a>
+<span>/</span>
+ <a href="/realwords/">Read and Select the real English words</a>
+<span>/</span>
+<a>Practice 25</a>
+</div> 
+
+
+<center><h2><strong>Read and Select the real English words</strong></h2></center>
+
+<div class="stats">
+        <p>Time: <span id="timer">0s</span></p>
+</div>
+ <div id="frame001">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<center><select name="language" id="rst1" onchange="getSelected(this)" class="custom-select" multiple>
+
+</select></center>
+<p id="rsltr" style="color: orange;font-style: bold;text-align: center;">Accuracy: <span id="result"></span></p>
+</div>
+
+<br>
+<div id="disappear001"><div id="center001"><button class="button001" onclick="getSelected()">Submit</button></div></div><br/>
+          
+            <div id="center001"><p id="message001"></p><p id="reload1"></p></div>
+
+
+
+<script type="text/javascript" src="scripts.js"></script>
+ <script src="confetti.js"></script>
+</body>
+</html>
