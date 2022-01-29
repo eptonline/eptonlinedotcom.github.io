@@ -3,7 +3,7 @@
         "author": "Md Sanaul Haque Shanto",
         "short_name": "eptOnline.org",
         "description": "Top Ranked Platform for IELTS, TOEFL, PTE, and Duolingo English Test.Get perfect score with us. Just visit our platform and practice thousands of problems similar to real test.",
-        "start_url": "/",
+        "start_url": "/index.html",
         "background_color": "#eb8a0c",
         "theme_color": "#eb8a0c",
         "display": "standalone",
