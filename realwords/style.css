@@ -49,6 +49,9 @@ button {
   border-radius: 5px;
   font-size: 18px;
 }
+.button:hover {
+  background-color: #555;
+}
 .result {
   margin-top: 40px;
   display: none;
