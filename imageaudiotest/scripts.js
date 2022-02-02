@@ -77,7 +77,7 @@ const recFunction = async() => {
                         // Create a Playback and pass it the blob
                         let videoURL = window.URL.createObjectURL(blob);
                         vidSave.href = videoURL;
-                        vidSave.download = `Interview-Audio-${Math.floor(Math.random()*quotes.length)}.mp3`;
+                        vidSave.download = `Interview-Audio-${Math.floor(Math.random()*quotes.length)}-${Date.now()}.mp3`;
                     }
                 }
                 // Start Recording in 1s
