@@ -348,7 +348,43 @@ const quotes = [
     {
         "quote" : "In this photo you can see a football fan in a large stadium. He is holding the Brazilian national flag over his head and cheering his team. This photo was probably taken during World Cup match.", 
         "source" : "https://zenon70.github.io/repository/detimages/football-fan.jpg"
-    }
+    },
+     { 
+        "quote" : "This picture shows a group of female students attending a test. Except for the student at the far right, everyone seems to have their full attention on the question paper.", 
+        "source" : "https://zenon70.github.io/repository/detimages/studexam.png" 
+},
+ { 
+        "quote" : "This picture shows a girl dressed in white pullovers and blue jeans reading books in a library. The girl seems to be quite enjoying what she is reading.", 
+        "source" : "https://zenon70.github.io/repository/detimages/libgirl.png" 
+},
+ { 
+        "quote" : "The picture is showing a lonely girl dressed in all black sitting on a bench of a park situated beside a lake. The girl is expecting someone to join her, as she is sitting at the far left of the bench, leaving more than half of the bench vacant as if she was determined to be alone, she would have sat at the middle of the bench.", 
+        "source" : "https://zenon70.github.io/repository/detimages/unicampgirl.png" 
+},
+ { 
+        "quote" : "The picture given is depicting a group of women attending a yoga session in the park with comfortable yoga clothes on. The group is seen doing differentiated yoga practice, as some are seen raising a foot while two of them have both their feet on the ground.", 
+        "source" : "https://zenon70.github.io/repository/detimages/yogaprac.png" 
+},
+ { 
+        "quote" : "The photo appears to be of a water ride from an amusement park in which a large number of people are enjoying themselves with water rides. The movement and safety of the individuals is observed by the authoritative guards at the center of the water ride.", 
+        "source" : "https://zenon70.github.io/repository/detimages/watergarden.png" 
+},
+ { 
+        "quote" : "The picture shows a busy street of a foreign country in which a number of taxis are seen on the road. There is also quite a large number of private cars parked on the side of the road.", 
+        "source" : "https://zenon70.github.io/repository/detimages/kolkatataxi.png" 
+},
+ { 
+        "quote" : "The photo shows two elderly people walking with their pet dog. The photo seems to have been taken after the coronavirus pandemic, as there isn’t any notable pollution around, however, both of the people are seen here with masks on.", 
+        "source" : "https://zenon70.github.io/repository/detimages/liesuretime.png" 
+},
+ { 
+        "quote" : "The picture depicts a group of construction workers working on the road. The workers seem to be on a break, as a road roller is attached to the road.", 
+        "source" : "https://zenon70.github.io/repository/detimages/roadworkers.png" 
+},
+ { 
+        "quote" : "This picture is about a group of people attending an office meeting over a table. A certain individual is giving a speech while the others are listening to what he has to say.", 
+        "source" : "https://zenon70.github.io/repository/detimages/scrummeeting.png" 
+}
 ];
 
 
