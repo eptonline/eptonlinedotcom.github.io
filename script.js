@@ -176,4 +176,45 @@ if ("serviceWorker" in navigator) {
     console.log(error);
   })
 }
+//share
 
+const facebookBtn = document.querySelector(".facebook-btn");
+const twitterBtn = document.querySelector(".twitter-btn");
+const pinterestBtn = document.querySelector(".pinterest-btn");
+const linkedinBtn = document.querySelector(".linkedin-btn");
+const whatsappBtn = document.querySelector(".whatsapp-btn");
+
+function init() {
+  const pinterestImg = document.querySelector(".pinterest-img");
+
+  let postUrl = encodeURI(document.location.href);
+  let postTitle = encodeURI("Are you planning to take IELTS or TOEFL or PTE or Duolingo English Test? But didn't found anything handy that help you to fluent in English as Native Speaker? All platform charges exorbitant fees? eptOnline comes with this ideas. You can practice thousands of topics for speaking, listening, writing, and interview. Just visit : ");
+  let postImg = encodeURI(pinterestImg.src);
+
+  facebookBtn.setAttribute(
+    "href",
+    `https://www.facebook.com/sharer.php?u=${postUrl}`
+  );
+
+  twitterBtn.setAttribute(
+    "href",
+    `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
+  );
+
+  pinterestBtn.setAttribute(
+    "href",
+    `https://pinterest.com/pin/create/bookmarklet/?media=${postImg}&url=${postUrl}&description=${postTitle}`
+  );
+
+  linkedinBtn.setAttribute(
+    "href",
+    `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
+  );
+
+  whatsappBtn.setAttribute(
+    "href",
+    `https://wa.me/?text=${postTitle} ${postUrl}`
+  );
+}
+
+init();
