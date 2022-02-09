@@ -188,7 +188,7 @@ function init() {
   const pinterestImg = document.querySelector(".pinterest-img");
 
   let postUrl = encodeURI(document.location.href);
-  let postTitle = encodeURI("Are you planning to take IELTS or TOEFL or PTE or Duolingo English Test? But didn't found anything handy that help you to fluent in English as Native Speaker? All platform charges exorbitant fees? eptOnline comes with this ideas. You can practice thousands of topics for speaking, listening, writing, and interview. Just visit : ");
+  let postTitle = encodeURI("Are you planning to take IELTS or TOEFL or PTE or Duolingo English Test? But didn't found anything handy that help you to fluent in English as Native Speaker? All platform charges exorbitant fees? eptOnline comes with this ideas to serve you free of cost. You can practice thousands of topics for speaking, listening, writing, and interview. Just visit : ");
   let postImg = encodeURI(pinterestImg.src);
 
   facebookBtn.setAttribute(
