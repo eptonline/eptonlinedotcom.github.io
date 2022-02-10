@@ -415,7 +415,7 @@ button{
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(1.2);
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.06);
+  box-shadow: 10px 10px 15px orange;
   transition: opacity 0.2s 0s ease-in-out,
               transform 0.2s 0s ease-in-out;
 }
@@ -438,7 +438,7 @@ button{
   height: 115px;
   width: 115px;
   border-radius: 50%;
-  background: linear-gradient(#9b27ca 0%, #9927cf 0%, #d33639 100%, #f92121 100%);
+  background: orange;
 }
 .warn-icon .icon{
   height: 100px;
@@ -447,7 +447,7 @@ button{
   border-radius: inherit;
 }
 .warn-icon .icon i{
-  background: linear-gradient(#9b27ca 0%, #9927cf 0%, #d33639 100%, #f92121 100%);
+  background: orange;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -475,7 +475,7 @@ button{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(135deg, #9b27ca, #d33639, #9b27ca, #d33639);
+  background: orange;
   transition: all 0.4s ease;
 }
 .btn:hover .bg-layer{
