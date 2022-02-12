@@ -110,8 +110,7 @@ const quotes = [
 },
 
 { 
-        "quote" : "In many countries schools have severe problems with student behavior? What do you think are the causes of this ?
-", 
+        "quote" : "In many countries schools have severe problems with student behavior? What do you think are the causes of this ?", 
         "source" : "Perhaps the most predominant cause of problematic student behavior is a troublesome home environment. Negligence, abuse, lack of affection from parents at home are some of the causes of students developing problematic behavior and expressing them at school. Furthermore, being exposed to negative experiences in life, having wrong companionship, and low mental health are also causes of problems with student behavior. Most importantly, school authorities aren’t trained enough to handle such student behavior, which in turn exacerbates the issue. "
 },
 
