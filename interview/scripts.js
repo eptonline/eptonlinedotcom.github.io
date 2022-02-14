@@ -96,7 +96,7 @@
                 chunks = [];
                 let videoURL = window.URL.createObjectURL(blob);
                 vidSave.href = videoURL;
-                vidSave.download = `Interview-Video-${Math.floor(Math.random()*quotes.length)}-${Date.now()}.mp4`;
+                vidSave.download = `eptOnline-Interview-Video-${Math.floor(Math.random()*quotes.length)}-${Date.now()}.mp4`;
 
               
             }
