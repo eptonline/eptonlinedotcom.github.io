@@ -112,7 +112,7 @@ var programming_languages = [
 	"egregious",
 	"elegy"
 ]
-]
+
 
 let answer = '';
 let maxWrong = 6;
