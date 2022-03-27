@@ -6,6 +6,19 @@
     <changefreq>weekly</changefreq>
       <priority>1.0</priority>
 	</url>
+		<url>
+		<loc>https://eptonline.org/blog/a/all-about-minerva.html</loc>
+		<lastmod>2022-03-27T11:10:25+00:00</lastmod>
+       		 <changefreq>weekly</changefreq>
+    		  <priority>1.0</priority>
+	</url>
+	</url>
+		<url>
+		<loc>https://eptonline.org/blog/</loc>
+		<lastmod>2022-03-27T11:10:25+00:00</lastmod>
+       		 <changefreq>weekly</changefreq>
+    		  <priority>1.0</priority>
+	</url>
 	<url>
 		<loc>https://eptonline.org/listening/</loc>
 			<lastmod>2022-01-24T11:10:25+00:00</lastmod>
