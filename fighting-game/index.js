@@ -283,7 +283,7 @@ window.addEventListener('keydown', (event) => {
       case 'w':
         player.velocity.y = -20
         break
-      case ' ':
+      case 'f':
         player.attack()
         break
     }
