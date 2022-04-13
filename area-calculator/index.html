@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area Calculator</title>
+
+    <!-- Import scripts -->
+ 
+    <script src="script.js"></script>
+    <script src="4shapes.js"></script>
+    <script src="Geometry_Shapes_claculator.js"></script>
+
+    <!-- Import stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7066409508007262"
+     crossorigin="anonymous"></script>
+    
+</head>
+
+<body onload="loadShapeButtons();loadInput(0);">
+    <!-- The "menu section"; The section on the left of the viewport -->
+    <div id="menu_section">
+        <script>
+            generateMenuTitleBox();
+            generateShapeButtonBox();
+            generateSettingsBox();
+        </script>
+    </div>
+
+    <!-- The "input section"; The section on the middle of the website -->
+    <div id="input_section"></div>
+
+    <!-- The "output section"; The section on the right of the website -->
+    <div id="output_section">
+        <div id="output_box"></div>
+
+        <div class="common_box" id="clear_output_button_box">
+            <script>
+                generateClearOutputBox();
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
