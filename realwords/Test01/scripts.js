@@ -157,9 +157,11 @@ if(arr2.length===(arr2.length - final.length) && arr2.length===values.length){
 
 if(arr2.length!=(arr2.length - final.length) || arr2.length!=values.length){
   message001.innerHTML = "<text style= color:red >You Are Lost! Try Again.</text>" ;
-                disappear001.innerHTML = "";
+                disappear001.innerHTML = "<button onclick=window.alert(arr2)>Need Help?</button>";
                 wrongs.play();
-                reload1.innerHTML = "<div id=center001><button class=button001 onclick=window.alert(arr2)>Need Help?</button><br><button class=button001 onclick=reload()>Try Again</button></div>";
+                
+                reload1.innerHTML = "<div id=center001><button class=button001 onclick=reload()>Try Again</button></div>";
+                
 
 }
 
