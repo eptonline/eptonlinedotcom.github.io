@@ -128,12 +128,7 @@
        		 <changefreq>monthly</changefreq>
     		  <priority>1.0</priority>
 		</url>
-		<url>
-		<loc>https://eptonline.org/rock-paper-scissor/</loc>
-		<lastmod>2022-04-12T11:10:25+00:00</lastmod>
-       		 <changefreq>monthly</changefreq>
-    		  <priority>1.0</priority>
-		</url>
+		
 		<url>
 		<loc>https://eptonline.org/speech-text-reader/</loc>
 		<lastmod>2022-04-12T11:10:25+00:00</lastmod>
